@@ -55,7 +55,7 @@ public class TestListener implements ITestListener{
 		 
 	File scr=	driver.getScreenshotAs(OutputType.FILE);
 	
-	//below is for extent report screenshot embedding
+	//below is for extent report screenshot embedding (in the report itself)
 	
 	byte[] encoded = null;
 	try {
@@ -80,7 +80,7 @@ public class TestListener implements ITestListener{
 		}
 		 
 		 
-		 
+		 //fail the ExtentTest test and embed the screenshot to the report
 		 ExtentReport.getTest().fail("Test Failed",
 					MediaEntityBuilder.createScreenCaptureFromBase64String(new String(encoded, StandardCharsets.US_ASCII)).build());
 			ExtentReport.getTest().fail(result.getThrowable());
@@ -93,10 +93,11 @@ public class TestListener implements ITestListener{
 		
 	}
 	@Override
-	public void onTestStart(ITestResult result) {
+	public void onTestStart(ITestResult result) { // runs after @BeforeTest but before the @Test
 		BaseTest b1=new BaseTest();
 		
 		//start the test from extent test perspective - pass method name and description
+		//this method has to run before ExtentReport.getTest() null pointer exception otherwise
 		ExtentReport.startTest(result.getName(), result.getMethod().getDescription())
 		.assignCategory(b1.getPlatform()+"_"+b1.getDeviceName()).assignAuthor("Abdul");
 		

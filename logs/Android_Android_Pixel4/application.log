@@ -1,0 +1,57 @@
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:40.473 BaseTest:165 - in before method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:40.485 ProductTest:84 - Current test being executed test1
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:42.680 BaseTest:385 - Entering username standard_user
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:44.005 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:44.559 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:45.341 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:45.876 BaseTest:378 - Clicking login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:56.236 BaseTest:378 - Clicking settings button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:58.168 BaseTest:378 - Clicking logout button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 17:51:58.491 BaseTest:172 - in after method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:22.466 BaseTest:165 - in before method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:22.719 ProductTest:84 - Current test being executed test1
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:23.920 BaseTest:385 - Entering username standard_user
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:24.529 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:25.071 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:26.165 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:27.097 BaseTest:378 - Clicking login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:39.967 BaseTest:378 - Clicking settings button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:42.376 BaseTest:378 - Clicking logout button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:04:43.936 BaseTest:172 - in after method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:30.004 BaseTest:165 - in before method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:30.054 ProductTest:84 - Current test being executed test1
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:31.387 BaseTest:385 - Entering username standard_user
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:32.488 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:33.026 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:34.103 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:35.174 BaseTest:378 - Clicking login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:07:46.047 BaseTest:378 - Clicking settings button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:49.561 BaseTest:165 - in before method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:49.674 ProductTest:84 - Current test being executed test1
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:50.626 BaseTest:385 - Entering username standard_user
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:51.736 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:52.271 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:53.353 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:13:53.883 BaseTest:378 - Clicking login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:14:07.478 BaseTest:378 - Clicking settings button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:14:13.861 BaseTest:378 - Clicking logout button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:33.749 BaseTest:165 - in before method
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:37.190 ProductTest:84 - Current test being executed test1
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:37.285 BaseTest:385 - Entering username standard_user
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:38.398 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:38.934 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:39.537 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:19:40.070 BaseTest:378 - Clicking login button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:20:21.614 BaseTest:378 - Clicking settings button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:20:23.822 BaseTest:378 - Clicking logout button
+[logsAndroid_Android_Pixel4 INFO ] 2021-05-25 18:20:24.067 BaseTest:172 - in after method

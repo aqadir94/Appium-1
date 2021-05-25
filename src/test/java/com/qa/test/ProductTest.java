@@ -82,8 +82,7 @@ public void beforeClass() throws IOException {
 	  productsPage=new ProductsPage();
 	  productDetailsPage=new ProductDetails();
 	  utils.log().info("Current test being executed "+m.getName());
-	  logInPage.login(loginUsers.getJSONObject("validCredentials").getString("username"),
-			  loginUsers.getJSONObject("validCredentials").getString("password") );
+	
 	  
   }
   
@@ -163,8 +162,11 @@ public void beforeClass() throws IOException {
   @Test
   public void test1() throws InterruptedException {
 	  
-
+	  logInPage.login(loginUsers.getJSONObject("validCredentials").getString("username"),
+			  loginUsers.getJSONObject("validCredentials").getString("password") );
 	  productsPage.addToCart();
+	  String text=getDriver().findElementByAccessibilityId("olp").getText();
+	  Assert.assertEquals("boa", text);
   }
 
 }

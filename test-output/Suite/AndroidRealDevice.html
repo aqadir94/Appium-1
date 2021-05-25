@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AndroidRealDevice</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 25 08:30:42 EDT 2021</td>
+<td>Started on:</td><td>Tue May 25 18:19:07 EDT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23514 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47457 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,40 +68,85 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.test.ProductTest.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.test.ProductTest<br>Parameters: public void com.qa.test.ProductTest.test1() throws java.lang.InterruptedException</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.qa.reports.ExtentReport.getTest()&quot; is null
-	at com.qa.resources.BaseTest.click(BaseTest.java:379)
-	at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-	at com.qa.pages.LoginPage.login(LoginPage.java:74)
-	at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
+<td title='com.qa.test.ProductTest.test1()'><b>test1</b><br>Test class: com.qa.test.ProductTest<br/>
+<a href="#Output-135534627" onClick='toggleBox("Output-135534627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-135534627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-135534627">
+This is the sample screenshot<br/>
+<a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-RNF7R3U9&apos;, ip: &apos;192.168.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a32c1ada-0969-4743-a57d-803b0b134cf9
+*** Element info: {Using=accessibility id, value=olp}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.qa.test.ProductTest.test1(ProductTest.java:168)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1165141470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1165141470'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.qa.reports.ExtentReport.getTest()&quot; is null
-	at com.qa.resources.BaseTest.click(BaseTest.java:379)
-	at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-	at com.qa.pages.LoginPage.login(LoginPage.java:74)
-	at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace135534627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace135534627'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-RNF7R3U9&apos;, ip: &apos;192.168.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a32c1ada-0969-4743-a57d-803b0b134cf9
+*** Element info: {Using=accessibility id, value=olp}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.qa.test.ProductTest.test1(ProductTest.java:168)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -120,86 +165,7 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>3</td>
-<td>com.qa.test.ProductTest@3a7442c7</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qa.test.ProductTest.afterTest()'><b>afterTest</b><br>Test class: com.qa.test.ProductTest</td>
-<td></td>
-<td>-1621945866</td>
-<td>com.qa.test.ProductTest@3a7442c7</td></tr>
-<tr>
-<td title='com.qa.test.ProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.test.ProductTest</td>
-<td></td>
-<td>-1621945866</td>
-<td>com.qa.test.ProductTest@3a7442c7</td></tr>
-<tr>
-<td title='com.qa.test.ProductTest.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.test.ProductTest</td>
-<td></td>
-<td>-1621945866</td>
-<td>com.qa.test.ProductTest@3a7442c7</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.qa.test.ProductTest.test1()'><b>test1</b><br>Test class: com.qa.test.ProductTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.qa.reports.ExtentReport.getTest()&quot; is null
-	at com.qa.resources.BaseTest.click(BaseTest.java:379)
-	at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-	at com.qa.pages.LoginPage.login(LoginPage.java:74)
-	at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace78396237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace78396237'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)&quot; because the return value of &quot;com.qa.reports.ExtentReport.getTest()&quot; is null
-	at com.qa.resources.BaseTest.click(BaseTest.java:379)
-	at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-	at com.qa.pages.LoginPage.login(LoginPage.java:74)
-	at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-</pre></div></td>
-<td>0</td>
+<td>13</td>
 <td>com.qa.test.ProductTest@3a7442c7</td></tr>
 </table><p>
 </body>

@@ -29,4 +29,29 @@
       </class> <!-- com.qa.test.ProductTest -->
     </classes>
   </test> <!-- AndroidRealDevice(failed) -->
+  <test thread-count="5" parallel="tests" name="AndroidEmulator(failed)">
+    <parameter name="emulator" value="true"/>
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="chromeDriverPort" value="110001"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Android_Pixel4"/>
+    <parameter name="systemPort" value="10001"/>
+    <classes>
+      <class name="com.qa.test.ProductTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="test1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qa.test.ProductTest -->
+    </classes>
+  </test> <!-- AndroidEmulator(failed) -->
 </suite> <!-- Failed suite [Suite] -->

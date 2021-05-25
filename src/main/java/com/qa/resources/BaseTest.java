@@ -376,7 +376,8 @@ ThreadContext.put("ROUTINGKEY", strFile); //routing key in the log4j2 xml file i
 		
 		waitForVisibility(e);
 		utils.log().info(msg);
-		ExtentReport.getTest().log(Status.INFO,msg);
+		ExtentReport.getTest().log(Status.INFO,msg); //make sure extent report start test method is executed before this
+		//if not null pointer exception will occur
 		e.click();
 	}
 	

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-05-25T08:30:42 EDT" name="Suite" finished-at="2021-05-25T08:31:06 EDT" duration-ms="23514">
+  <suite started-at="2021-05-25T18:19:07 EDT" name="Suite" finished-at="2021-05-25T18:20:29 EDT" duration-ms="81648">
     <groups>
     </groups>
-    <test started-at="2021-05-25T08:30:42 EDT" name="AndroidRealDevice" finished-at="2021-05-25T08:31:06 EDT" duration-ms="23514">
+    <test started-at="2021-05-25T18:19:07 EDT" name="AndroidRealDevice" finished-at="2021-05-25T18:19:55 EDT" duration-ms="47457">
       <class name="com.qa.test.ProductTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:30:41 EDT" name="beforeSuite" finished-at="2021-05-25T08:30:42 EDT" duration-ms="1467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:30:42 EDT" name="beforeTest" finished-at="2021-05-25T08:30:57 EDT" duration-ms="14596" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:07 EDT" name="beforeTest" finished-at="2021-05-25T18:19:23 EDT" duration-ms="15640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:30:57 EDT" name="beforeClass" finished-at="2021-05-25T08:31:01 EDT" duration-ms="4030" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:23 EDT" name="beforeClass" finished-at="2021-05-25T18:19:27 EDT" duration-ms="3957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:01 EDT" name="beforeMethod" finished-at="2021-05-25T08:31:01 EDT" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:27 EDT" name="beforeMethod" finished-at="2021-05-25T18:19:28 EDT" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:01 EDT" name="beforeMethod" finished-at="2021-05-25T08:31:05 EDT" duration-ms="3936" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:28 EDT" name="beforeMethod" finished-at="2021-05-25T18:19:28 EDT" duration-ms="143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,70 +76,56 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.qa.reports.ExtentReport.getTest()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.qa.reports.ExtentReport.getTest()" is null
-at com.qa.resources.BaseTest.click(BaseTest.java:379)
-at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-at com.qa.pages.LoginPage.login(LoginPage.java:74)
-at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:05 EDT" name="test1" finished-at="2021-05-25T08:31:05 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="test1()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:28 EDT" name="test1" finished-at="2021-05-25T18:19:41 EDT" duration-ms="13757" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.qa.reports.ExtentReport.getTest()" is null]]>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RNF7R3U9', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a32c1ada-0969-4743-a57d-803b0b134cf9
+*** Element info: {Using=accessibility id, value=olp}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.qa.reports.ExtentReport.getTest()" is null
-at com.qa.resources.BaseTest.click(BaseTest.java:379)
-at com.qa.pages.LoginPage.clickLoginBtn(LoginPage.java:62)
-at com.qa.pages.LoginPage.login(LoginPage.java:74)
-at com.qa.test.ProductTest.beforeMethod(ProductTest.java:85)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RNF7R3U9', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a32c1ada-0969-4743-a57d-803b0b134cf9
+*** Element info: {Using=accessibility id, value=olp}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at com.qa.test.ProductTest.test1(ProductTest.java:168)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -151,27 +145,203 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:832)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:06 EDT" name="afterMethod" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1621945866006" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:47 EDT" name="afterMethod" finished-at="2021-05-25T18:19:49 EDT" duration-ms="1902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:06 EDT" name="afterMethod" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1621945866008" status="SKIP">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:49 EDT" name="afterMethod" finished-at="2021-05-25T18:19:53 EDT" duration-ms="4826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=ProductTest.test1()[pri:0, instance:com.qa.test.ProductTest@3a7442c7] output=This is the sample screenshot]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:06 EDT" name="afterTest" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1621945866011" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T18:19:53 EDT" name="afterTest" finished-at="2021-05-25T18:19:55 EDT" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.test.ProductTest@3a7442c7]" started-at="2021-05-25T08:31:06 EDT" name="afterSuite" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1621945866359" status="SKIP">
+      </class> <!-- com.qa.test.ProductTest -->
+    </test> <!-- AndroidRealDevice -->
+    <test started-at="2021-05-25T18:19:07 EDT" name="AndroidEmulator" finished-at="2021-05-25T18:20:29 EDT" duration-ms="81648">
+      <class name="com.qa.test.ProductTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:01 EDT" name="beforeSuite" finished-at="2021-05-25T18:19:07 EDT" duration-ms="6292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:07 EDT" name="beforeTest" finished-at="2021-05-25T18:19:25 EDT" duration-ms="17929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Android_Pixel4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[110001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:25 EDT" name="beforeClass" finished-at="2021-05-25T18:19:30 EDT" duration-ms="5303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:30 EDT" name="beforeMethod" finished-at="2021-05-25T18:19:37 EDT" duration-ms="6223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:37 EDT" name="beforeMethod" finished-at="2021-05-25T18:19:37 EDT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.ProductTest.test1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:19:37 EDT" name="test1" finished-at="2021-05-25T18:19:49 EDT" duration-ms="12751" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RNF7R3U9', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, deviceName: Android_Pixel4, platformName: android, systemPort: 10001, udid: emulator-5554, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, systemPort: 10001, takesScreenshot: true, udid: emulator-5554, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 31c2c718-ef60-44ca-8c77-3e2b81daed40
+*** Element info: {Using=accessibility id, value=olp}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RNF7R3U9', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, deviceName: Android_Pixel4, platformName: android, systemPort: 10001, udid: emulator-5554, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, systemPort: 10001, takesScreenshot: true, udid: emulator-5554, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 31c2c718-ef60-44ca-8c77-3e2b81daed40
+*** Element info: {Using=accessibility id, value=olp}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at com.qa.test.ProductTest.test1(ProductTest.java:168)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:20:21 EDT" name="afterMethod" finished-at="2021-05-25T18:20:23 EDT" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:20:23 EDT" name="afterMethod" finished-at="2021-05-25T18:20:24 EDT" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=ProductTest.test1()[pri:0, instance:com.qa.test.ProductTest@24569dba] output=This is the sample screenshot]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:20:24 EDT" name="afterTest" finished-at="2021-05-25T18:20:29 EDT" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.test.ProductTest@24569dba]" started-at="2021-05-25T18:20:29 EDT" name="afterSuite" finished-at="2021-05-25T18:20:29 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.qa.test.ProductTest -->
-    </test> <!-- AndroidRealDevice -->
+    </test> <!-- AndroidEmulator -->
   </suite> <!-- Suite -->
 </testng-results>
