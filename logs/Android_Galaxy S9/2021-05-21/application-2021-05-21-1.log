@@ -1,0 +1,10 @@
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:15.046 BaseTest:163 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:15.168 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:15.169 LoginPage:30 - 
+ Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:17.358 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:18.751 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:28.938 commonTopMenu:23 - Clicking on settings button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-21 17:38:36.003 BaseTest:170 - in after method

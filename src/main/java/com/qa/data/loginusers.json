@@ -1,0 +1,28 @@
+{
+
+"invalidPassword":{
+
+	"username":"standard_user",
+	"password":"Incorrect Password"
+
+},
+
+"invalidUserName":{
+
+	"username":"Incorrect user",
+	"password":"secret_sauce"
+
+},
+
+"validCredentials":{
+
+	"username":"standard_user",
+	"password":"secret_sauce"
+
+},
+
+"name":"Qadir"
+
+
+}
+

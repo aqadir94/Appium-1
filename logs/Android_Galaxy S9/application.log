@@ -1,0 +1,45 @@
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:36:38.907 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:36:39.045 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:36:39.767 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:40:17.593 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:40:18.085 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:40:18.928 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:55:15.416 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:55:15.603 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 07:55:16.239 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:44.602 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:44.737 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:45.945 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:46.635 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:47.200 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:48.318 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:49.427 BaseTest:378 - Clicking login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:13:59.928 BaseTest:378 - Clicking settings button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:14:01.776 BaseTest:378 - Clicking logout button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:14:06.992 BaseTest:172 - in after method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:48.785 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:49.037 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:49.611 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:51.863 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:52.412 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:53.524 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:15:54.081 BaseTest:378 - Clicking login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:16:03.996 BaseTest:378 - Clicking settings button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:16:06.213 BaseTest:378 - Clicking logout button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:16:11.148 BaseTest:172 - in after method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:20:42.037 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:20:42.168 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:20:42.774 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:01.852 BaseTest:165 - in before method
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:01.992 ProductTest:84 - Current test being executed test1
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:02.651 BaseTest:385 - Entering username standard_user
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:04.109 LoginPage:41 - 
+ Entering password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:04.647 BaseTest:385 - Entering Password secret_sauce
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:05.267 LoginPage:61 - 
+ Clicking on login button
+[logsAndroid_Galaxy S9 INFO ] 2021-05-25 08:31:05.798 BaseTest:378 - Clicking login button
