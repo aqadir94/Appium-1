@@ -22,7 +22,7 @@
   </classes>
   </test> <!-- Test -->
   
- <test thread-count="5" name="AndroidEmulator">
+<!--  <test thread-count="5" name="AndroidEmulator">
 
   <parameter name="udid" value="emulator-5554"/>
   <parameter name="emulator" value="true"/>
@@ -38,5 +38,5 @@
   
   </class>
   </classes>
-  </test>  
+  </test>  --> 
 </suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.893 s <<< FAILURE! - in TestSuite
+com.qa.test.ProductTest.test1  Time elapsed: 15.563 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RNF7R3U9', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 23b4064f-511e-4128-bce4-c27ff6fbd55f
+*** Element info: {Using=accessibility id, value=olp}
+	at com.qa.test.ProductTest.test1(ProductTest.java:168)
+

@@ -9,70 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">AndroidRealDevice</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,457</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">AndroidEmulator</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">81,648</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">129,105</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">AndroidRealDevice</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31,585</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AndroidRealDevice &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.test.ProductTest</td><td><a href="#m0">test1</a></td><td rowspan="1">1621981168226</td><td rowspan="1">13757</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">AndroidEmulator &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.test.ProductTest</td><td><a href="#m1">test1</a></td><td rowspan="1">1621981177190</td><td rowspan="1">12751</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AndroidRealDevice &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.test.ProductTest</td><td><a href="#m0">test1</a></td><td rowspan="1">1622152775061</td><td rowspan="1">334</td></tr></tbody>
 </table>
-<h2>AndroidRealDevice</h2><h3 id="m0">com.qa.test.ProductTest#test1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">This is the sample screenshot<br/><a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Galaxy S9\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-RNF7R3U9&apos;, ip: &apos;192.168.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, chromeDriverPort: 110000, deviceName: Galaxy S9, platformName: android, systemPort: 10000, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-G960W, deviceName: 50584a424e443498, deviceScreenDensity: 480, deviceScreenSize: 1080x2220, deviceUDID: 50584a424e443498, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 72, systemPort: 10000, takesScreenshot: true, udid: 50584a424e443498, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2103, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: a32c1ada-0969-4743-a57d-803b0b134cf9
-*** Element info: {Using=accessibility id, value=olp}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
-	at com.qa.test.ProductTest.test1(ProductTest.java:168)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>AndroidEmulator</h2><h3 id="m1">com.qa.test.ProductTest#test1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">This is the sample screenshot<br/><a href='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png'> <img src='C:\Users\Qadir\eclipse-workspace\Selenium Udemy\AppiumFramework\Screenshots\Android_10_Android_Pixel4\2021.05.25.18.19.07\ProductTest\\test1.png' height='400' width='400'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-RNF7R3U9&apos;, ip: &apos;192.168.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, databaseEnabled: false, desired: {app: C:\Users\Qadir\eclipse-work..., appActivity: com.swaglabsmobileapp.MainA..., appPackage: com.swaglabsmobileapp, autoAcceptAlerts: true, autoGrantPermissions: true, avd: Android_Pixel4, avdLaunchTimeout: 300000, chromeDriverPort: 110001, deviceName: Android_Pixel4, platformName: android, systemPort: 10001, udid: emulator-5554, unlockKey: 74159, unlockType: pin}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x3040, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 172, systemPort: 10001, takesScreenshot: true, udid: emulator-5554, unlockKey: 74159, unlockType: pin, viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 31c2c718-ef60-44ca-8c77-3e2b81daed40
-*** Element info: {Using=accessibility id, value=olp}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
-	at com.qa.test.ProductTest.test1(ProductTest.java:168)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AndroidRealDevice</h2><h3 id="m0">com.qa.test.ProductTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
