@@ -165,8 +165,7 @@ public void beforeClass() throws IOException {
 	  logInPage.login(loginUsers.getJSONObject("validCredentials").getString("username"),
 			  loginUsers.getJSONObject("validCredentials").getString("password") );
 	  productsPage.addToCart();
-	  String text=getDriver().findElementByAccessibilityId("olp").getText();
-	  Assert.assertEquals("boa", text);
+	  
   }
 
 }
